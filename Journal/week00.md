@@ -1,17 +1,11 @@
 # Week 0 - Billing and Architecture
 
-## Required Homework/Tasks
+## Getting the AWS CLI Working
+
+we'll be using the AWS CLI often in this bootcamp, so we'll proceed to installing this account.
 
 ### Install AWS CLI
+* We are going to install the AWS CLI when our Gitpod environment launches.
+* We are going to set AWS CLI to use partial autoprompt mode to make it easier to debug CLI commands.
+* The bash commands we are using are the same as the [AWS CLI Install instructions]https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
-I was not able to use Gitpod or Github Codespaces due to browser issues.
-So I decided to use a local environment.
-
-In order to prove that I am able to use the AWS CLI.
-I am providing the instructions I used for my configuration of my local machine on windows.
-
-I did the following steps to install AWS CLI.
-
-```
-msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
-```
